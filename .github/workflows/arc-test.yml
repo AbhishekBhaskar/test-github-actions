@@ -8,3 +8,6 @@ jobs:
     runs-on: self-hosted
     steps:
     - run: echo "🎉 This job uses runner scale set runners!"
+    - uses: github/dependabot-action@main
+    
+    
